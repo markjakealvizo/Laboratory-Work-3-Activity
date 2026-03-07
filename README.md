@@ -8,8 +8,11 @@ https://colab.research.google.com/drive/1eumyqQsP8wV1t8bFX-rUx6cakv368ei1?usp=sh
 
 1. Dataset Preparation
 ○ How did you organize your dataset in Google Drive?
+
 Answer: In mydrive, ImageDataset folder under ImageDataset folder are the 20 class of trees, each class have a folder and the minimum of 250 images inside of each class.
+
 ○ Why is folder structure important for TensorFlow image loading?
+
 Answer: The folder structure is important because TensorFlow uses the subfolder names as class labels.
 
 
