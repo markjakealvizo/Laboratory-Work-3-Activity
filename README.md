@@ -62,3 +62,46 @@ provide care instructions or information about them.
 **Answer:** The trained model can be integrated into a mobile or web app by letting users upload or take a photo, preprocessing it, running it through the model, and displaying the predicted plant species.
 
 
+
+
+
+
+
+# Guide Questions (Student Explanation & Reflection)
+
+### Visualization & Overfitting
+1. What signs indicated overfitting in your first model?
+   
+**Answer:** Overfitting was indicated because training accuracy became very high and training loss kept decreasing, while validation accuracy stopped improving and validation loss started increasing, showing the model memorized the training data but did not generalize well to new data.
+
+2. How did data augmentation affect validation accuracy?
+
+**Answer:** Data augmentation improved validation accuracy by helping the model generalize better and reducing overfitting on the training data.
+
+### Model Improvement
+ 3. What is the purpose of dropout layers?
+
+**Answer:** The purpose of dropout layers is to prevent overfitting by randomly turning off some neurons during training so the model learns more general features.
+
+4. Why does data augmentation improve generalization?
+
+**Answer:** Data augmentation improves generalization because it creates varied versions of the training images, helping the model learn more robust features instead of memorizing the original data.
+
+### Performance Comparison
+5. Compare accuracy before and after improvements.
+
+**Answer:** Before improvements, training accuracy reached about 100% while validation accuracy stayed around 75–77%, showing overfitting, whereas after improvements training accuracy decreased to about 60% and validation accuracy stayed close to it (~55%), indicating better generalization with a smaller gap between them.
+
+6. Which technique contributed most to improvement?
+
+**Answer:** Data augmentation contributed most to the improvement because it increased data variation and helped the model generalize better, reducing overfitting.
+
+### Deployment & Application
+
+7. Why is saving the model important?
+
+**Answer:** Saving the model is important because it allows you to reuse the trained model later for predictions without training it again.
+
+8. How can this model be deployed in a real-world system?
+
+**Answer:** This model can be deployed in a real-world system by exporting the trained model and integrating it into an application or server (e.g., web app, mobile app, or API) that takes new input data, runs predictions, and provides results to users in real time.
