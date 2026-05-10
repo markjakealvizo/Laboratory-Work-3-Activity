@@ -1,4 +1,4 @@
-# Laboratory Work 3_Custom Image Classification
+# CSC-Laboratory Work 3_Custom Image Classification
 
 Google Collab link:
 https://colab.research.google.com/drive/1eumyqQsP8wV1t8bFX-rUx6cakv368ei1?usp=sharing
