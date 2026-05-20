@@ -2,6 +2,7 @@
 
 Google Collab link:
 https://colab.research.google.com/drive/1eumyqQsP8wV1t8bFX-rUx6cakv368ei1?usp=sharing
+Google Drive Saved Model: https://drive.google.com/drive/folders/1Am2FPa8AqxdIcQq3OxY3ZPKpgPmmenD4?usp=drive_link
 
 # Guide Questions (Student Reflection & Explanation)
 ## Students must answer the following:
